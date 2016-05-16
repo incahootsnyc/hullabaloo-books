@@ -43,7 +43,7 @@ table {
 }
 
 .page-body {
-	background-image: url("assets/hullabaloo-bg.png");
+	background-image: url("../assets/hullabaloo-bg.png");
 	background-repeat: repeat;
 	color: white;
 	font-family: 'Lato', sans-serif;
