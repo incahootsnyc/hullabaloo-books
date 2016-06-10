@@ -78,7 +78,7 @@ a:hover {
 
 /* line 19, scss/_styles.scss */
 body {
-  background-image: url("assets/hullabaloo-bg.png");
+  background-image: url("../assets/hullabaloo-bg.png");
   background-repeat: repeat;
 }
 /* line 23, scss/_styles.scss */
