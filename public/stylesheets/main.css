@@ -150,10 +150,10 @@ body * {
 /* line 81, scss/_styles.scss */
 .black-box {
   background-color: #0f0803;
-  height: 100%;
+  height: 115%;
   width: 100%;
   position: absolute;
-  z-index: 100;
+  z-index: -100;
 }
 @media (min-width: 480px) {
   /* line 81, scss/_styles.scss */
@@ -198,15 +198,23 @@ body * {
 }
 
 @media (min-width: 480px) {
-  /* line 125, scss/_styles.scss */
+  /* line 127, scss/_styles.scss */
   .upcoming-about__header {
     text-align: left;
     font-size: 22px;
     padding: 10px 0 0 0;
+    line-height: 22px;
+  }
+}
+@media (min-width: 480px) {
+  /* line 137, scss/_styles.scss */
+  .upcoming-about__text {
+    font-size: 16px;
+    line-height: 18px;
   }
 }
 
-/* line 135, scss/_styles.scss */
+/* line 145, scss/_styles.scss */
 .store-info {
   padding: 5px 0;
   text-transform: uppercase;
@@ -214,10 +222,10 @@ body * {
 }
 
 @media (min-width: 480px) {
-  /* line 141, scss/_styles.scss */
+  /* line 151, scss/_styles.scss */
   .main {
     width: 50%;
-    max-width: 650px;
+    max-width: 600px;
     display: inline-block;
     vertical-align: top;
     z-index: 300;
@@ -225,95 +233,94 @@ body * {
     margin-top: 35px;
   }
 }
-/* line 152, scss/_styles.scss */
+/* line 162, scss/_styles.scss */
 .main__content {
   background: #ffe4cc;
-  padding: 10px 0;
-  position: relative;
-  z-index: 300;
-  margin: auto;
   width: 95%;
+  margin: auto;
+  padding: 0 0 40px 0;
+  z-index: 400;
+  line-height: 16px;
+  position: relative;
 }
 @media (min-width: 480px) {
-  /* line 152, scss/_styles.scss */
+  /* line 162, scss/_styles.scss */
   .main__content {
-    width: 100%;
     height: 100%;
     padding: 30px;
   }
 }
 
-/* line 169, scss/_styles.scss */
+/* line 179, scss/_styles.scss */
 .upcoming, .about {
-  margin-top: 20px;
   background-color: #ffe4cc;
-  width: 95%;
-  margin: auto;
-}
-@media (min-width: 480px) {
-  /* line 169, scss/_styles.scss */
-  .upcoming, .about {
-    padding: 20px 0 0 0;
-  }
+  padding: 5px 20px;
 }
 
-/* line 181, scss/_styles.scss */
+/* line 187, scss/_styles.scss */
 .event {
-  margin: 10px 0;
+  padding: 10px 0;
 }
 @media (min-width: 480px) {
-  /* line 181, scss/_styles.scss */
+  /* line 187, scss/_styles.scss */
   .event {
-    margin: 20px 0;
+    margin: 10px 0;
   }
 }
-/* line 188, scss/_styles.scss */
+/* line 194, scss/_styles.scss */
 .event__date {
   font-weight: 600;
   font-size: 16px;
   text-transform: uppercase;
   margin: 5px 0;
 }
-/* line 195, scss/_styles.scss */
+/* line 201, scss/_styles.scss */
 .event__summary {
   margin: 5px 0 0 0;
   display: block;
 }
-/* line 200, scss/_styles.scss */
+@media (min-width: 480px) {
+  /* line 201, scss/_styles.scss */
+  .event__summary {
+    font-size: 16px;
+    line-height: 18px;
+  }
+}
+/* line 211, scss/_styles.scss */
 .event__icon {
   width: 20px;
   padding: 15px 5px;
   display: inline-block;
   vertical-align: middle;
 }
-/* line 207, scss/_styles.scss */
+/* line 218, scss/_styles.scss */
 .event__more {
   text-transform: uppercase;
 }
-/* line 210, scss/_styles.scss */
+/* line 221, scss/_styles.scss */
 .event__more__link {
   font-weight: 600;
 }
 
-/* line 218, scss/_styles.scss */
+/* line 229, scss/_styles.scss */
 .social__icon {
   width: 25px;
   padding: 15px 5px;
   display: inline-block;
   vertical-align: middle;
 }
-/* line 225, scss/_styles.scss */
+/* line 236, scss/_styles.scss */
 .social__list {
   display: inline-block;
 }
 
-/* line 230, scss/_styles.scss */
+/* line 241, scss/_styles.scss */
 .footer {
   height: 45px;
   background: #0f0803;
   color: #fff;
 }
-/* line 235, scss/_styles.scss */
+/* line 246, scss/_styles.scss */
 .footer__text {
   color: #A9A29D;
   text-align: center;
