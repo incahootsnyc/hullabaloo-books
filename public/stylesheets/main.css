@@ -272,7 +272,8 @@ body * {
   font-weight: 600;
   font-size: 16px;
   text-transform: uppercase;
-  margin: 5px 0;
+  margin: 5px 10px 5px 0;
+
 }
 /* line 201, scss/_styles.scss */
 .event__summary {
